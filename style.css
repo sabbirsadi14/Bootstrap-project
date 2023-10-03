@@ -1,0 +1,549 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-image: url(images/landing-shadow.png);
+    background-repeat: no-repeat;
+    background-size: 500px 1000px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans', sans-serif;
+}
+/* start intro-section*/
+.intro-section{
+    position: relative;
+    height: 650px;
+}
+/* start of header*/
+.nav-bar{
+    width: 100%;
+    height: 90px;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0px 5px 10px silver;
+    border: 1px solid white;
+}
+.menu{
+    width: 100%;
+    position: relative;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.nav-bar img{
+    height: 40px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 80px;
+}
+.nav-list{
+    height: 100%;
+    width: 50%;
+    margin-top: 5px;
+    position: absolute;
+    top: 0;
+    right: 250px;
+}
+.nav-list ul li{
+    list-style-type: none;
+    float: left;
+    color: black;
+    padding: 5px 20px;
+}
+.nav-list li:hover{
+    color: #8F3EEB;
+    outline: 2px solid #8F3EEB;
+}
+.download-btn{
+    width: 150px;
+    height: 30px;
+    background-color:  #331DFF;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 1px 10px;
+    top: 8px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    right: 100px;
+    position: absolute;
+}
+.download-btn:hover{
+    outline: 5px solid #331DFF;
+}
+/* end of header*/
+/* start of landing-section*/
+.landing-page{
+    width: 100%;
+    height: 650px;
+}
+.landing-left{
+    width: 100%;
+    height: 100%;
+    padding-left: 180px;
+    padding-top: 220px;
+}
+.landing-left span {
+    margin: 0px;
+    font-weight: 600;
+    color: #FC5B3A;
+    letter-spacing: 25px;
+}
+.landing-left .title{
+    color: #6846FF;
+    letter-spacing: normal;
+}
+.landing-left h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.landing-left p {
+    margin: 0px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.landing-left .intro-btn{
+    border: 1px solid #8F3EEB;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.landing-left .intro-btn:hover{
+    background-color: #6846FF;
+    color: white;
+}
+.landing-left .sabbir{
+    width: 100px;
+    height: 80px;
+    line-height: 0px;
+    margin-top: 72px;
+    margin-right: 5px;
+    border: none;
+    background-color: transparent;
+}
+.landing-left .sabbir h3{
+    color: #8F3EEB;
+    font-size: 35px;
+    font-weight: 800;
+}
+.landing-left .sabbir p{
+    margin: 0px;
+    font-size: 10px;
+}
+.landing-right{
+    width: 90%;
+    height: 100%;
+    background-color: #6846FF;
+    position: relative;
+    margin-left: 10%;
+    right: 0;
+    border-radius: 0px 0px 0px 400px;
+}
+.landing-right img:nth-child(1){
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.landing-right img:nth-child(2){
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 150px;
+    left: 70px;
+}
+.landing-right img:nth-child(3){
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    bottom: 192px;
+    left: 110px;
+}
+.landing-right img:nth-child(4){
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 350px;
+    right: 50px;
+}
+/* end of landing-section*/
+/* start service-section*/
+.service{
+    width: 100%;
+    height: 525px;
+    padding: 0px 50px;
+    background-image: url(images/service-background.png);
+    background-repeat: no-repeat;
+    background-size: 700px 90%;
+    margin-top: 150px;
+}
+.service-left{
+    height: 100%;
+    position: relative;
+}
+.service-left img{
+    width: 70%;
+    height: 450px;
+    position: absolute;
+}
+.service-left .img2{
+    width: 70%;
+    height: 450px;
+    left: 50px;
+    position: absolute;
+}
+.service-left .img3{
+    width: 70%;
+    height: 450px;
+    left: 50px;
+    padding: 15px;
+    top: 5px;
+    position: absolute;
+}
+.service-right{
+    height: 100%;
+    position: relative;
+    padding: 0px 20px;
+}
+.service-right h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.service-right .title{
+    color: #6846FF;
+    font-size: 30px;
+    font-weight: 700;
+}
+.service-right span{
+    color: #6846FF;
+    font-size: 14px;
+    font-weight: 600;
+}
+.service-right p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.service-right ul{
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px;
+    padding-top: 10px;
+    list-style-type: none;
+    padding-bottom: 10px;
+    list-style-position: inside;
+}
+.service-right ul li{
+    font-size: 15px;
+    font-weight: 600;
+}
+.list-img{
+    height: 250px;
+    position: absolute;
+    left: 10px;
+    bottom: 85px;
+}
+.list-img img{
+    height: 100%;
+}
+/* end service-section*/
+/* start method-section*/
+.method{
+    width: 100%;
+    height: 700px;
+    padding: 0px 50px;
+}
+.method-header{
+    text-align: center;
+    padding-top: 80px;
+}
+.method-header h2{
+    font-weight: 700;
+}
+.method-header p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.payment{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px silver;
+}
+.payment:hover{
+    background-color: #6846FF;
+    color: white;
+}
+.payment-img{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    padding-top: 44px;
+}
+.payment-img img{
+    margin-left: 30px;
+    background-color: #6846FF;
+}
+.payment .payment-img :hover{
+    background-color: white;
+}
+.payment-content{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    padding-top: 40px;
+}
+.payment-content h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.payment-content p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.payment-4{
+    width: 320px;
+    margin-left: 345px;
+    margin-top: 30px;
+}
+.method button{
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: #6846FF;
+    margin-left: 450px;
+    margin-top: 40px;
+}
+.method button:hover{
+    outline: 4px solid #6846FF;
+}
+/* end of method section*/
+/* start of payment-gateway section*/
+.payment-gateway{
+    padding: 100px 50px;
+}
+.payment-gateway-left p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.payment-gateway-left h2{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.payment-gateway-left .gateway-left-box1 span{
+    float: left;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 5px silver;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    color: #6846FF;
+    background-color: white;
+}
+.payment-gateway-left .gateway-left-box1 span:hover{
+    color: white;
+    background-color: #6846FF;
+}
+.payment-gateway-left .gateway-left-box1 h4{
+    font-size: 14px;
+    font-weight: 600;
+}
+.payment-gateway-right{
+    position: relative;
+    height: 100%;
+}
+.image{
+    width: 220px;
+    height: 295px;
+    position: absolute;
+    padding: 10px 10px;
+    right: 240px;
+    top: 220px;
+    border-radius: 15px;
+    background-color: white;
+}
+.payment-gateway-right .img1{
+    width: 200px;
+    height: 275px;
+    position: absolute;
+}
+.payment-gateway-right .img1-2{
+    width: 195px;
+    height: 270px;
+    position: absolute;
+}
+.payment-gateway-right .img2{
+    width: 370px;
+    height: 450px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+.payment-gateway-right .img2-2{
+    width: 350px;
+    height: 430px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: -1;
+}
+.client-no{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 58%;
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    background-color: #6846FF;
+}
+.circle-text{
+    margin-top: 60px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    bottom: 90px;
+    right: 105px;
+}
+/* end of payment-gateway section*/
+/* start of support section*/
+.support{
+    width: 100%;
+    padding: 10px 50px;
+}
+.support h2{
+    text-align: center;
+    font-weight: 700;
+    margin: 30px;
+}
+.support button img{
+    width: 150px;
+    height: 50px;
+}
+.support button{
+    width: 190px;
+    height: 80px;
+    margin: 4px;
+    border: none;
+    border-radius: 10px;
+}
+.support button:hover{
+    background-color: white;
+    box-shadow: 0px 0px 5px 2px silver;
+}
+/* end of support section*/
+/* start of conclusion section*/
+.conclusion{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    position: relative;
+}
+.conclusion-left{
+    width: 41%;
+    height: 100%;
+    left: 50px;
+    position: absolute;
+}
+.conclusion-left img{
+    position: absolute;
+}
+.conclusion-left img:nth-child(1){
+    left: 0;
+}
+.conclusion-left img:nth-child(2){
+    left: 70px;
+}
+.conclusion-left img:nth-child(3){
+    left: 40px;
+    bottom: 0;
+}
+.conclusion-left img:nth-child(4){
+    left: -20px;
+    bottom: 120px;
+}
+.conclusion-left img:nth-child(5){
+    right: 20px;
+    top: -25px;
+}
+.conclusion-right{
+    width: 50%;
+    height: 100%;
+    right: 50px;
+    padding-left: 90px;
+    padding-top: 120px;
+    position: absolute;
+}
+.conclusion-right h2{
+    font-weight: 700;
+}
+.conclusion-right p{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.conclusion-right button{
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: #6846FF;
+}
+.conclusion-right button:hover{
+    outline: 4px solid #6846FF;
+}
+/* end of conclusion section*/
+/* start of footer section*/
+.footer-section{
+    color: white;
+    background-color: #6846FF;
+    padding: 150px 200px;
+}
+.footer-section .footer-box1 img{
+    width: 120px;
+    height: 30px;
+}
+.footer-section .footer-box1 p{
+    font-size: 14px;
+    margin: 20px 0px;
+}
+.footer-section .footer-box2 ul{
+    list-style-image: url(images/check-mark.png);
+    font-size: 14px;
+    margin: 35px 0px;
+}
+.footer-section .footer-box2{
+    padding-left: 30px;
+}
+.footer-section .footer-box3 ul{
+    list-style-image: url(images/check-mark.png);
+    font-size: 14px;
+    margin: 35px 0px;
+}
+.footer-section .footer-box4 .fa-solid{
+    float: left;
+    margin-right: 10px;
+}
+.footer-section .footer-box4 p{
+    font-size: 14px;
+}
+.footer-section .footer-box4 h6{
+margin-bottom: 40px;
+}
+/* end of footer section*/
